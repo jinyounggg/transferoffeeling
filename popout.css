@@ -1,0 +1,142 @@
+body{
+  background-color: rgb(165, 133, 4);
+  padding: 0;
+  margin: 0;
+
+}
+
+.menu{
+  height: 230px;
+  width: 210px;
+  background-color:rgb(247, 202, 20);
+  position: absolute;
+  margin: auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align: center;
+  font-size: 23px;
+  z-index: 2;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  box-shadow: 1117px 213px 315px 0 rgba(81, 46, 0, 0.9);
+
+}
+
+.fa-share-alt{
+  position: relative;
+  top: 10px;
+  left: 19px;
+  color: white;
+}
+
+.menu-items{
+  height: 230px;
+  width: 210px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+   }
+   .menu-items>div{
+     background-color: white;
+     height: 230px;
+     width:210px;
+     position: relative;
+     font-size: 23px;
+     transition: 0.5s linear;
+     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+     box-shadow: 7px 13px 25px 0 rgba(81, 46, 0, 0.9);
+
+   }
+   .fa{
+     position: relative;
+     top: 10px;
+   }
+   a{
+     color:rgb(247, 202, 20);
+   }
+   .item1{
+    bottom: 23px;
+  }
+   .item2{
+     bottom: 276px;
+   }
+   .item3{
+     bottom: 526px;
+   }
+   .item4{
+    bottom: 780px;
+  }
+  .item5{
+    bottom: 1034px;
+  }
+  .item6{
+    bottom: 1290px;
+  }
+  .item7{
+    bottom: 1290px;
+    display: none;
+  }
+  .item8{
+    bottom: 1540px;
+    z-index: -1;
+  
+  }
+  .item9{
+    bottom: 1795px;
+    z-index: -1;
+  }
+  .item10{
+    bottom: 2050px;
+    z-index: -1;
+  }
+  .item11{
+    bottom: 2300px;
+    z-index: -1;
+  }
+  .item12{
+    bottom: 2550px;
+    z-index: -1;
+  }
+  .item13{
+    bottom: 2800px;
+    z-index: -1;
+  }
+  .item14{
+    bottom: 3060px;
+    z-index: -1;
+  }
+  .item15{
+    bottom: 3310px;
+    z-index: -1;
+  }
+  .item16{
+    bottom: 3560px;
+    z-index: -1;
+  }
+  .item22{
+    bottom: 3820px;
+    z-index: -1;
+  }
+  .item23{
+    bottom: 4070px;
+    z-index: -1;
+  }
+  .item25{
+    bottom: 4320px;
+    z-index: -1;
+  }
+  .menu-items>div:hover{
+    background-color: rgb(247, 202, 20);
+  }
+  .menu-items>div:hover a{
+    color: white;
+  }
+
+  
+  
